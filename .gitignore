@@ -1,0 +1,69 @@
+# Manuscripts and documents
+*.doc
+*.docx
+*.pdf
+*.odt
+*.rtf
+~$*
+
+# Manuscript folders
+manuscript/
+manuscripts/
+paper/
+papers/
+submission/
+submissions/
+
+# Python environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# R
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# IDE and operating system
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+tmp/
+temp/
+cache/
+.cache/
+logs/
+*.log
+*.bak
+*.tmp
+
+# Large downloaded datasets
+data/raw/
+data/downloads/
+downloads/

@@ -1,0 +1,19 @@
+CCID-Epigenome v0.9.0.post1
+
+New files:
+- src/ccid/orthogonal_validation.py
+- scripts/00_download_orthogonal_validation_data.py
+- scripts/00_fetch_encode_re2g.py
+- scripts/04h_validate_external_reprogramming.py
+- scripts/04i_validate_natural_aging_direction.py
+- scripts/04j_validate_fibroblast_eqtm.py
+- scripts/04k_assess_regulatory_links_and_editability.py
+- scripts/04l_integrate_orthogonal_validation.py
+- scripts/run_orthogonal_validation_v090.sh
+- data/reference/frozen_primary_shortlist_v090.csv
+- configs/orthogonal_validation_v090.json
+- tests/test_orthogonal_validation.py
+- README_ORTHOGONAL_VALIDATION_V0.9.0.md
+- UPGRADE_V0.9.0.md
+
+- README_HOTFIX_V0.9.0.POST1.md

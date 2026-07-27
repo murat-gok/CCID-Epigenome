@@ -1,0 +1,23 @@
+{
+  "component_weights": {
+    "discovery_strength_score": 0.10,
+    "donor_stability_score": 0.18,
+    "o3_support_score": 0.14,
+    "successful_failed_specificity_score": 0.12,
+    "temporal_consistency_score": 0.12,
+    "editor_responsiveness_score": 0.10,
+    "regional_support_score": 0.08,
+    "genomic_context_score": 0.06,
+    "regulatory_evidence_score": 0.10
+  },
+  "top_k": 20,
+  "secondary_top_k": 50,
+  "weight_iterations": 1000,
+  "weight_log_sigma": 0.30,
+  "uncertainty_iterations": 1000,
+  "component_noise_sd": 0.05,
+  "null_iterations": 1000,
+  "seed": 20260722,
+  "stable_topk_frequency": 0.70,
+  "shortlist_size": 50
+}

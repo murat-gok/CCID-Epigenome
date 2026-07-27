@@ -1,0 +1,37 @@
+CCID-Epigenome v0.3.0 package contents
+
+Core package
+- src/ccid/: signatures, candidates, surrogate models, constrained objectives,
+  optimizers, benchmark metrics and streaming public-data preprocessing.
+
+Public-data scripts
+- scripts/01_download_public_data.py
+- scripts/02a_preprocess_fibroblast_expression.py
+- scripts/02b_preprocess_fibroblast_methylation.py
+- scripts/02c_preprocess_bystander_methylation.py
+- scripts/02d_build_sample_overlap_report.py
+- scripts/02_preprocess_all.py
+
+Analysis scripts
+- scripts/02_define_safe_window.py
+- scripts/03_build_target_signature.py
+- scripts/04_analyze_bystander_data.py
+- scripts/04_build_candidate_library.py
+- scripts/05_train_effect_surrogate.py
+- scripts/06_optimize_protocols.py
+- scripts/07_statistical_tests.py
+- scripts/08_benchmark_optimizers.py
+- scripts/run_synthetic_demo.py
+
+Validation
+- tests/: 18 unit tests, including preprocessing, zero-edit exclusion and fixed metric reproducibility.
+- configs/: quick and full-paper validation profiles.
+
+Documentation
+- README.md
+- README_REAL_DATA_V0.3.0.md
+- REVIEW_AND_TEST_PLAN.md
+- RUN_LOG.md
+- CHANGELOG.md
+- UPGRADE_V0.2.0.md
+- UPGRADE_V0.3.0.md

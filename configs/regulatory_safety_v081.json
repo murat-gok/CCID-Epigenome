@@ -1,0 +1,12 @@
+{
+  "experimental_weight": 0.72,
+  "regulatory_weight": 0.18,
+  "literature_relevance_weight": 0.10,
+  "risk_penalty": 0.50,
+  "uncertainty_penalty": 0.25,
+  "nearest_tss_max_bp": 1000000,
+  "linked_gene_max_bp": 100000,
+  "promoter_bp": 2000,
+  "proximal_bp": 10000,
+  "shortlist_size": 100
+}

@@ -1,0 +1,12 @@
+CCID-Epigenome v0.7.1 patch contents
+
+src/ccid/bystander_validation_v071.py
+src/ccid/__init__.py
+scripts/04d_validate_bystander_v071.py
+tests/test_bystander_validation_v071.py
+pyproject.toml
+README.md
+README_BYSTANDER_VALIDATION_V0.7.1.md
+UPGRADE_V0.7.1.md
+CHANGELOG.md
+MANIFEST_V0.7.1.txt

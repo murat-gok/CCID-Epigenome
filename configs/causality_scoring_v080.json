@@ -1,0 +1,17 @@
+{
+  "version": "0.8.0",
+  "interpretation": "Prespecified transparent weights for experimental prioritisation; not causal proof.",
+  "weights": {
+    "discovery_strength_score": 0.10,
+    "donor_stability_score": 0.18,
+    "o3_support_score": 0.14,
+    "successful_failed_specificity_score": 0.12,
+    "temporal_consistency_score": 0.12,
+    "editor_responsiveness_score": 0.10,
+    "regional_support_score": 0.08,
+    "genomic_context_score": 0.06,
+    "biological_relevance_score": 0.10
+  },
+  "safety_penalty_multiplier": 0.45,
+  "missing_component_policy": "renormalise over available components and report evidence completeness"
+}

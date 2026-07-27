@@ -1,0 +1,13 @@
+CCID-Epigenome v0.9.0.post2
+
+Changed files:
+- src/ccid/orthogonal_validation.py
+- tests/test_orthogonal_validation.py
+- src/ccid/__init__.py
+- pyproject.toml
+- README.md
+- CHANGELOG.md
+
+New files:
+- README_HOTFIX_V0.9.0.POST2.md
+- MANIFEST_V0.9.0.POST2.txt

@@ -1,0 +1,3 @@
+gene,evidence_role,evidence_domain,evidence_status,evidence_strength,evidence_level,source_type,source_id,source_year,source_url_or_doi,reviewed,source_note
+SSH1,relevance,aging_longevity,positive,0.0,unreviewed,manual_review,,2026,,false,Replace with a traceable reviewed source or leave reviewed=false.
+SSH1,risk,oncogenic_risk,no_known_signal,0.0,unreviewed,manual_review,,2026,,false,Do not mark no_known_signal until a documented safety review is completed.

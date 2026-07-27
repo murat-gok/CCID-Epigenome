@@ -1,4 +1,4 @@
-# Manuscripts and documents
+# Manuscripts and submission documents
 *.doc
 *.docx
 *.pdf
@@ -6,13 +6,18 @@
 *.rtf
 ~$*
 
-# Manuscript folders
+# Manuscript and submission directories
 manuscript/
 manuscripts/
 paper/
 papers/
 submission/
 submissions/
+
+# Archives and local release packages
+*.zip
+*.7z
+*.rar
 
 # Python environments
 .venv/
@@ -35,7 +40,7 @@ __pycache__/
 .Ruserdata
 .Rproj.user/
 
-# Secrets
+# Secrets and credentials
 .env
 .env.*
 !.env.example
@@ -63,7 +68,12 @@ logs/
 *.bak
 *.tmp
 
-# Large downloaded datasets
+# Workflow caches
+.snakemake/
+.nextflow/
+work/
+
+# Downloaded/raw datasets
 data/raw/
 data/downloads/
 downloads/

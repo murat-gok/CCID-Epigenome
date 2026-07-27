@@ -1,0 +1,21 @@
+{
+  "profile": "quick_sandbox",
+  "optimizer_seeds": 3,
+  "target_permutations": 19,
+  "bootstrap_replicates": 100,
+  "nsga2_population": 32,
+  "nsga2_generations": 16,
+  "max_edits": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "nominal_interval_level": 0.9,
+  "min_edits": 1,
+  "min_relative_improvement": 0.1,
+  "metric_seed": 20260721,
+  "hypervolume_reference_margin": 1.1,
+  "seed_independent_metric_normalization": true
+}

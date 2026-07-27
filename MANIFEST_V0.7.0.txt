@@ -1,0 +1,11 @@
+src/ccid/bystander_validation.py
+src/ccid/__init__.py
+scripts/04c_validate_bystander_editability.py
+scripts/04c_export_epicv2_annotation.R
+tests/test_bystander_validation.py
+pyproject.toml
+README.md
+README_BYSTANDER_VALIDATION_V0.7.0.md
+UPGRADE_V0.7.0.md
+CHANGELOG.md
+MANIFEST_V0.7.0.txt

@@ -1,0 +1,15 @@
+CCID-Epigenome v0.8.1 added files
+
+scripts/00_fetch_v081_regulatory_references.py
+scripts/04f_complete_regulatory_safety.py
+src/ccid/regulatory_safety.py
+configs/regulatory_safety_v081.json
+data/reference/literature_evidence_seed_v081.csv
+data/reference/literature_evidence_template_v081.csv
+data/reference/enhancer_gene_links_template_v081.csv
+data/reference/reference_sources_v081.json
+data/reference/README_REGULATORY_SAFETY_V0.8.1.md
+tests/test_regulatory_safety.py
+README_REGULATORY_SAFETY_V0.8.1.md
+UPGRADE_V0.8.1.md
+MANIFEST_V0.8.1.txt

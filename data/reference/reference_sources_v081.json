@@ -1,0 +1,28 @@
+{
+  "gencode": {
+    "release": 50,
+    "assembly": "GRCh38.p14",
+    "url": "https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_50/gencode.v50.annotation.gtf.gz",
+    "use": "nearest gene and transcription-start-site annotation"
+  },
+  "encode_ccre": {
+    "assembly": "GRCh38",
+    "annotations": {
+      "agnostic": "ENCSR800VNX",
+      "activated_t_cell": "ENCSR441PXE",
+      "wi38_fibroblast": "ENCSR084ZCE"
+    },
+    "use": "candidate cis-regulatory-element overlap; WI38 is a fibroblast proxy, not an MSC-specific annotation"
+  },
+  "literature_seed": {
+    "policy": "small traceable seed only; candidate-specific review must be completed in the generated manual review queue",
+    "source_identifiers": [
+      "PMID:16904174",
+      "PMID:24025773",
+      "PMID:24529372",
+      "PMID:19668191",
+      "PMID:22048312",
+      "PMID:24011076"
+    ]
+  }
+}

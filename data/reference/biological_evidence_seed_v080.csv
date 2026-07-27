@@ -1,0 +1,87 @@
+gene,category,relevance_weight,risk_weight,evidence_level,source_id,source_note
+SIRT1,aging_longevity,0.85,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+SIRT6,aging_longevity,0.90,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+FOXO3,aging_longevity,0.90,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+KL,aging_longevity,0.90,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+TERT,aging_longevity,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+LMNA,aging_longevity,0.80,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+WRN,aging_longevity,0.85,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+IGF1,aging_longevity,0.65,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+MTOR,aging_longevity,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+PRKAA1,aging_longevity,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+PRKAA2,aging_longevity,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+CDKN2A,senescence_sasp,0.95,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+CDKN1A,senescence_sasp,0.90,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+TP53,senescence_sasp,0.85,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+RB1,senescence_sasp,0.80,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+IL6,senescence_sasp,0.80,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+CXCL8,senescence_sasp,0.80,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+SERPINE1,senescence_sasp,0.80,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+MMP3,senescence_sasp,0.70,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+TGFB1,senescence_sasp,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+NFKB1,senescence_sasp,0.70,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+RELA,senescence_sasp,0.70,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+POU5F1,pluripotency_reprogramming,0.95,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+SOX2,pluripotency_reprogramming,0.95,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+KLF4,pluripotency_reprogramming,0.95,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+MYC,pluripotency_reprogramming,0.90,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+NANOG,pluripotency_reprogramming,0.90,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+LIN28A,pluripotency_reprogramming,0.80,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+DPPA4,pluripotency_reprogramming,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+UTF1,pluripotency_reprogramming,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+DNMT1,epigenetic_regulation,0.85,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+DNMT3A,epigenetic_regulation,0.90,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+DNMT3B,epigenetic_regulation,0.85,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+TET1,epigenetic_regulation,0.90,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+TET2,epigenetic_regulation,0.85,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+TET3,epigenetic_regulation,0.80,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+EZH2,epigenetic_regulation,0.80,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+KDM6A,epigenetic_regulation,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+KDM6B,epigenetic_regulation,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+HDAC1,epigenetic_regulation,0.70,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+HDAC2,epigenetic_regulation,0.70,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+ATM,genome_stability_dna_repair,0.85,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+ATR,genome_stability_dna_repair,0.80,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+BRCA1,genome_stability_dna_repair,0.85,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+BRCA2,genome_stability_dna_repair,0.85,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+CHEK1,genome_stability_dna_repair,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+CHEK2,genome_stability_dna_repair,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+RAD51,genome_stability_dna_repair,0.80,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+ERCC1,genome_stability_dna_repair,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+COL1A1,fibroblast_ecm_identity,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+COL1A2,fibroblast_ecm_identity,0.75,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+VIM,fibroblast_ecm_identity,0.65,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+THY1,fibroblast_ecm_identity,0.65,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+PDGFRA,fibroblast_ecm_identity,0.70,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+FN1,fibroblast_ecm_identity,0.70,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+ACTA2,fibroblast_ecm_identity,0.70,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+MYC,oncogenic_risk,0.00,1.00,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+KRAS,oncogenic_risk,0.00,0.95,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+NRAS,oncogenic_risk,0.00,0.90,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+HRAS,oncogenic_risk,0.00,0.90,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+BRAF,oncogenic_risk,0.00,0.90,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+PIK3CA,oncogenic_risk,0.00,0.90,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+AKT1,oncogenic_risk,0.00,0.80,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+CTNNB1,oncogenic_risk,0.00,0.85,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+BCL2,oncogenic_risk,0.00,0.80,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+TERT,oncogenic_risk,0.00,0.85,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+POU5F1,pluripotency_reprogramming_risk,0.00,0.90,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+SOX2,pluripotency_reprogramming_risk,0.00,0.90,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+NANOG,pluripotency_reprogramming_risk,0.00,0.85,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+KLF4,pluripotency_reprogramming_risk,0.00,0.70,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+LIN28A,pluripotency_reprogramming_risk,0.00,0.75,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+TP53,tumor_suppressor_risk,0.00,1.00,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+RB1,tumor_suppressor_risk,0.00,0.95,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+BRCA1,tumor_suppressor_risk,0.00,0.90,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+BRCA2,tumor_suppressor_risk,0.00,0.90,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+CDKN2A,tumor_suppressor_risk,0.00,0.95,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+PTEN,tumor_suppressor_risk,0.00,0.95,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+POU5F1,developmental_identity_risk,0.00,0.80,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+SOX2,developmental_identity_risk,0.00,0.80,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+HOXA9,developmental_identity_risk,0.00,0.75,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+HOXB4,developmental_identity_risk,0.00,0.70,canonical_seed,v080_seed,Proximity flag only; not a clinical safety classification
+ELOVL2,epigenetic_age_marker,0.90,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+FHL2,epigenetic_age_marker,0.85,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+KLF14,epigenetic_age_marker,0.80,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+PDE4C,epigenetic_age_marker,0.80,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence
+TEAD1,epigenetic_age_marker,0.70,0.00,canonical_seed,v080_seed,Heuristic triage panel; replace or supplement with traceable literature evidence

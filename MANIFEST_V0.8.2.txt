@@ -1,0 +1,13 @@
+CCID-Epigenome v0.8.2 patch files
+
+CHANGELOG.md
+README.md
+README_MANUSCRIPT_VALIDATION_V0.8.2.md
+UPGRADE_V0.8.2.md
+MANIFEST_V0.8.2.txt
+pyproject.toml
+configs/manuscript_validation_v082.json
+scripts/04g_validate_manuscript_readiness.py
+src/ccid/__init__.py
+src/ccid/manuscript_validation.py
+tests/test_manuscript_validation.py

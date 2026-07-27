@@ -1,0 +1,52 @@
+{
+  "profile": "full_paper",
+  "optimizer_seeds": 30,
+  "target_permutations": 1000,
+  "bootstrap_replicates": 1000,
+  "nsga2_population": 160,
+  "nsga2_generations": 250,
+  "max_edits": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "nominal_interval_levels": [
+    0.8,
+    0.9,
+    0.95
+  ],
+  "primary_endpoint": "weighted_safe_OSK_signature_mismatch",
+  "secondary_endpoints": [
+    "safety_risk",
+    "edit_burden",
+    "predictive_uncertainty",
+    "clock_change",
+    "identity_preservation"
+  ],
+  "holdouts": [
+    "donor",
+    "study",
+    "genomic_region_or_chromosome"
+  ],
+  "optimizers": [
+    "MILP_or_exact_linearized_subset",
+    "NSGA-II",
+    "MOEA-D",
+    "binary_differential_evolution",
+    "greedy",
+    "random"
+  ],
+  "min_edits": 1,
+  "min_relative_improvement": 0.1,
+  "metric_seed": 20260721,
+  "hypervolume_reference_margin": 1.1,
+  "seed_independent_metric_normalization": true,
+  "equal_objective_evaluation_budget": true,
+  "report_igd_plus": true,
+  "separate_no_intervention_baseline": true
+}

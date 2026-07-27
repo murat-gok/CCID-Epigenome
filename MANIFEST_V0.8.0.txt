@@ -1,0 +1,15 @@
+CCID-Epigenome v0.8.0 patch files
+=================================
+src/ccid/genomic_causality.py
+scripts/04e_score_genomic_causality.py
+tests/test_genomic_causality.py
+configs/causality_scoring_v080.json
+data/reference/biological_evidence_seed_v080.csv
+data/reference/README_GENE_EVIDENCE_V0.8.0.md
+README_GENOMIC_CAUSALITY_V0.8.0.md
+UPGRADE_V0.8.0.md
+MANIFEST_V0.8.0.txt
+pyproject.toml
+src/ccid/__init__.py
+README.md
+CHANGELOG.md

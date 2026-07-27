@@ -1,0 +1,20 @@
+{
+  "frozen_panel_size": 16,
+  "bootstrap_iterations": 5000,
+  "seed": 20260724,
+  "external_reprogramming_dataset": "GSE142439",
+  "replicative_aging_dataset": "GSE131280",
+  "chronological_aging_dataset": "GSE22595",
+  "multidonor_lifespan_dataset_optional": "GSE179847",
+  "fibroblast_eqtm_methylation_dataset": "GSE52025",
+  "fibroblast_eqtm_expression_dataset": "GSE53243",
+  "eqtm_fdr_threshold": 0.10,
+  "multidonor_min_sign_consistency": 0.67,
+  "guide_genome": "hg38",
+  "guide_flank_bp": 250,
+  "guide_max_distance_to_cpg_bp": 150,
+  "spcas9_pam": "NGG",
+  "v1_min_orthogonal_supports": 4,
+  "v2_min_orthogonal_supports": 2,
+  "interpretation_scope": "Frozen-panel orthogonal validation; no original evidence weights or ranks are refit. Results do not establish locus-level causal rejuvenation."
+}

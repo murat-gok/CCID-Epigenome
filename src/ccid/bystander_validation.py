@@ -824,6 +824,12 @@ def write_bystander_validation_outputs(
 
 
 def _write_figures(result: BystanderValidationResult, figures: Path) -> None:
+    import matplotlib
+    # Figures are written to disk and never displayed, so force the
+    # non-interactive backend. Without this, matplotlib may select an
+    # interactive backend (e.g. TkAgg) and fail on machines with a
+    # broken or absent Tcl/Tk, and in any headless environment.
+    matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
     coverage = result.coverage.copy()

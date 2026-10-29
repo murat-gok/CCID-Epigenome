@@ -572,6 +572,12 @@ def run_manuscript_validation(cpg: pd.DataFrame, config: Mapping[str, object] | 
 
 
 def _plot_outputs(result: ManuscriptValidationResult, output_dir: Path) -> None:
+    import matplotlib
+    # Figures are written to disk and never displayed, so force the
+    # non-interactive backend. Without this, matplotlib may select an
+    # interactive backend (e.g. TkAgg) and fail on machines with a
+    # broken or absent Tcl/Tk, and in any headless environment.
+    matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
     fig_dir = output_dir / "figures"

@@ -782,6 +782,12 @@ def write_genomic_causality_outputs(result: GenomicCausalityResult, output_dir: 
 
 
 def _write_figures(result: GenomicCausalityResult, figures: Path) -> None:
+    import matplotlib
+    # Figures are written to disk and never displayed, so force the
+    # non-interactive backend. Without this, matplotlib may select an
+    # interactive backend (e.g. TkAgg) and fail on machines with a
+    # broken or absent Tcl/Tk, and in any headless environment.
+    matplotlib.use("Agg")
     import matplotlib.pyplot as plt
 
     cpg = result.cpg_scores

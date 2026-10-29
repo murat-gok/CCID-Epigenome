@@ -10,6 +10,12 @@ from pathlib import Path
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(PROJECT_ROOT / "src"))
 
+import matplotlib
+# Figures are written to disk and never displayed, so force the
+# non-interactive backend. Without this, matplotlib may select an
+# interactive backend (e.g. TkAgg) and fail on machines with a
+# broken or absent Tcl/Tk, and in any headless environment.
+matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd

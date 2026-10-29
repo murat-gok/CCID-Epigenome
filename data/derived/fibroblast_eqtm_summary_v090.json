@@ -1,0 +1,12 @@
+{
+  "datasets": [
+    "GSE52025",
+    "GSE53243"
+  ],
+  "n_matched_fibroblast_samples": 58,
+  "n_tested_pairs": 1,
+  "n_nominal_p_lt_0_05": 0,
+  "n_fdr_lt_0_10": 0,
+  "interpretation": "Sparse coverage; no significant cross-sectional fibroblast eQTM support. Association would not establish mediation or causality.",
+  "_provenance": "From prior user-provided console output."
+}

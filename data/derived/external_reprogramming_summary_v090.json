@@ -1,0 +1,10 @@
+{
+  "dataset": "GSE142439",
+  "n_frozen_candidates": 16,
+  "n_paired_donors": 4,
+  "direction_concordant_candidates": 14,
+  "exact_binomial_p": 0.0020904541015625,
+  "discovery_vs_external_effect_spearman_rho": 0.15294117647058825,
+  "interpretation": "Collective directional generalization in an independent transient-reprogramming dataset; effect-size transfer is weak and this is not an exact replication of MPTR.",
+  "_provenance": "From prior user-provided console output."
+}

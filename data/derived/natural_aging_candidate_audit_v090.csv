@@ -1,0 +1,17 @@
+robust_rank,candidate_rank,cpg_id,candidate_identity,discovery_delta_beta,replicative_reversal_concordant,chronological_available,multidonor_median_theil_sen_slope,multidonor_donor_sign_consistency,multidonor_within_donor_spearman_fdr,multidonor_reversal_concordant,multidonor_ox3_median_theil_sen_slope,multidonor_21pct_sign_opposite,multidonor_3pct_sign_opposite,multidonor_oxygen_stable_sign_opposite,natural_aging_evidence_class
+13,12,cg25688864,"ENSG00000304313, novel lncRNA",-0.691913,True,False,0.001408,0.666667,0.5957505,False,-0.001033,True,False,False,condition_specific_sign_only
+16,9,cg09448652,SNORD22/SNORD29/SNORD30/SNORD31 small nucleolar RNA cluster,-0.479103,True,False,-0.007235,0.666667,0.1888766,False,0.002528,False,True,False,condition_specific_sign_only
+10,24,cg04993874,"LOC124909385 / ENSG00000304774, uncharacterized ncRNA region",-0.65058,True,False,0.007867,0.833333,0.009695939,True,-0.000762,True,False,False,full_support_but_oxygen_dependent
+1,1,cg08543028,ENSG00000300510; novel IFITM3-like protein-coding model,-0.701822,False,False,-0.00659,0.666667,4.123014e-05,False,-0.002269,False,False,False,no_reversal_support
+2,5,cg13203228,SSH1 locus with nearest lncRNA AC087893.2 (ENSG00000274598),-0.66759,False,False,-0.002684,0.666667,5.927624e-05,False,-0.00012,False,False,False,no_reversal_support
+3,2,cg08575408,"GLIS3-AS1 (ENSG00000237009), validated ncRNA",-0.737346,True,False,-0.000169,0.5,0.0007766882,False,-0.000564,False,False,False,no_reversal_support
+4,3,cg20242395,TMCC1 locus; nearest novel antisense lncRNA ENSG00000302867,-0.673472,False,False,-0.009299,1.0,2.653365e-05,False,-0.01801,False,False,False,no_reversal_support
+5,7,cg23080355,"ENSG00000301986, novel lncRNA",-0.607247,False,False,-0.003277,0.833333,0.1455867,False,-0.014255,False,False,False,no_reversal_support
+8,8,cg09265623,"ENSG00000307844, novel lncRNA antisense to CYP27C1",-0.618911,False,False,-0.002461,0.833333,0.000284676,False,-0.00266,False,False,False,no_reversal_support
+9,4,cg13899534,"LINC01629 (ENSG00000258602), lncRNA",-0.48283,False,False,-0.01158,1.0,0.0002459719,False,-0.00251,False,False,False,no_reversal_support
+11,15,cg19211880,AMOTL2-proximal distal enhancer-like locus,-0.614648,False,False,-0.021254,0.833333,2.818613e-17,False,-0.032556,False,False,False,no_reversal_support
+14,13,cg23134334,TXLNB-proximal promoter-like locus,-0.544142,False,False,-0.001501,0.666667,5.927624e-05,False,-0.002493,False,False,False,no_reversal_support
+15,18,cg18432528,"ENSG00000285603, novel lncRNA antisense to GMDS",-0.625541,False,False,-0.004332,0.666667,0.154836,False,-0.011617,False,False,False,no_reversal_support
+6,6,cg10683641,"RNU6-237P, U6 snRNA pseudogene",-0.730203,False,False,0.002167,0.5,0.0001553062,False,0.004723,True,True,True,oxygen_stable_sign_only
+7,10,cg26402417,"ENSG00000307554, novel lncRNA antisense to ENDOD1",-0.751202,False,False,0.000438,0.5,0.9606293,False,0.001565,True,True,True,oxygen_stable_sign_only
+12,17,cg03882250,"ENSG00000299593, novel lncRNA",-0.58262,True,False,0.000715,0.666667,0.1888766,False,0.000375,True,True,True,oxygen_stable_sign_only

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "CCID-Epigenome: evidence-convergent prioritization of partial-reprogramming CpGs"
+abstract: >-
+  A sequential, evidence-convergent workflow that prioritizes DNA methylation
+  CpGs associated with maturation-phase transient reprogramming (MPTR) as
+  candidate loci for direction-specific epigenome-editing experiments, and
+  evaluates whether their methylation directions oppose independent cellular
+  aging trajectories. Includes donor-robustness analysis, perturbation-network
+  evidence, regulatory annotation, score-layer sensitivity analysis, and
+  orthogonal validation against independent transient-reprogramming,
+  replicative-aging and multidonor fibroblast-lifespan datasets.
+type: software
+version: "0.9.1"
+date-released: "2026-10-29"
+license: MIT
+repository-code: "https://github.com/murat-gok/CCID-Epigenome"
+authors:
+  - given-names: Murat
+    family-names: Gök
+    email: murat.gok@yalova.edu.tr
+    orcid: "https://orcid.org/0000-0003-2261-9288"
+    affiliation: "Department of Computer Engineering, Faculty of Engineering, Yalova University, Yalova, Türkiye"
+keywords:
+  - DNA methylation
+  - partial reprogramming
+  - cellular aging
+  - epigenome editing
+  - donor robustness
+  - longitudinal methylation
+  - regulatory annotation
+  - target prioritization

@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ccid-epigenome"
-version = "0.9.0.post4"
+version = "0.9.1"
 description = "Causality-constrained inverse design of minimal epigenome-editing protocols"
 requires-python = ">=3.10"
 dependencies = [

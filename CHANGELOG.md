@@ -1,4 +1,4 @@
-# CCID-Epigenome v0.9.0.post4
+# CCID-Epigenome — changelog
 
 - Corrects GSE179847 extended-data acquisition: the 63-KB Series Matrix is retained only for sample metadata, while the deposited ~2-GB processed beta CSV is downloaded for methylation values.
 - Adds a streaming GSE179847 CSV reader that retains only the frozen CpG panel.
@@ -186,3 +186,64 @@
 - Adds risk- and uncertainty-adjusted CpG and region priorities, evidence-readiness grades and a mandatory manual-review queue.
 - Adds five paper-ready figures, machine-readable summaries and a frozen v0.8.1 manifest.
 - Adds five regression/integration tests; the full suite now contains 53 tests.
+
+## 0.9.0.post5
+- Maps GSE179847 processed beta columns through GEO !Sample_description.
+- Excludes detection-p columns from the methylation matrix.
+- Estimates 21% O2 slopes per donor x study-part series before donor aggregation.
+- Adds separate 3% O2 sensitivity fields when available.
+
+## 0.9.1 — 2026-10-29
+
+First release whose source actually contains the post5 changes.
+
+### Fixed
+
+- **Applied the official v0.9.0.post5 hotfix, which had been committed but never
+  executed.** The v0.9.0.post5 tag carried post4 source plus an unapplied
+  `apply_post5.py`: both version strings read `0.9.0.post4`,
+  `src/ccid/orthogonal_validation.py` contained no `!Sample_description`
+  handling, and the post5 acceptance tests failed against it
+  (2 failed, 70 passed). Anyone cloning that tag could not reproduce the
+  GSE179847 results.
+- **`read_gse179847_processed_matrix` CSV compatibility.** When no
+  `" beta"`-suffixed columns are present the reader no longer delegates
+  unconditionally to the tab-delimited `read_geo_series_matrix`, which requires
+  `!series_matrix_table_begin` and therefore raised
+  `ValueError: No series matrix table was found` on a conventional
+  comma-delimited processed CSV. The header is now inspected first: a genuine
+  GEO Series Matrix (a single comma-field beginning with `!`) is still
+  delegated, while a processed CSV whose sample titles sit directly in the
+  header is handled inline, treating every column after the first as a sample
+  column. Restores `test_gse179847_processed_csv_streaming_with_direct_titles`
+  and `test_natural_aging_accepts_gse179847_processed_csv`.
+
+### Added
+
+- `scripts/faz0_diagnostics.py` — discovery-ranking diagnostic gate: SE-floor
+  anatomy of the frozen panel, ranking sensitivity across six variance
+  treatments, genome-wide delta distribution and the true null direction
+  probability, baseline-variance percentiles, and probe-mask / solo-WCGW overlap.
+- `START_HERE.md`, `RESTORATION.md`, `setup.ps1`, `setup.sh`, `run_tests.ps1`,
+  `run_faz0.ps1`.
+- `data/derived/` post5 summaries and the candidate-level aging audit, and
+  `data/metadata/dataset_manifest.csv`.
+
+### Not distributed
+
+The manuscript DOCX files and figure images are present in the working project
+folder but are excluded from version control by `.gitignore` (`manuscript/`,
+`*.docx`), so they are deliberately absent from this release and from its
+archived snapshot. The repository distributes code, configuration, reference
+definitions and derived result summaries only.
+
+### Verification
+
+Full suite: **72 passed**, matching the originally reported run.
+Verified on Python 3.10 with pandas 2.3.3 and numpy 2.2.6.
+
+### Known limitations
+
+No `results/` tree or raw GEO matrices are included; results were never
+committed to version control. Regenerating the discovery outputs is documented
+in `START_HERE.md` section 3.

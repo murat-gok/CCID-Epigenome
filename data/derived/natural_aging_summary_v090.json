@@ -1,0 +1,14 @@
+{
+  "n_frozen_candidates": 16,
+  "replicative_dataset": "GSE131280",
+  "chronological_dataset": "GSE22595",
+  "multidonor_dataset": "GSE179847",
+  "interpretation": "A candidate is directionally supported when the partial-reprogramming delta opposes the aging slope.",
+  "replicative_available_candidates": 16,
+  "replicative_reversal_concordant_candidates": 5,
+  "replicative_binomial_p": 0.9615936279296875,
+  "multidonor_available_candidates": 16,
+  "multidonor_reversal_concordant_candidates": 1,
+  "multidonor_binomial_p": 0.9999847412109375,
+  "_provenance": "Transcribed from the user's console output after CCID-Epigenome v0.9.0.post5 run; not independently recomputed in this runtime."
+}

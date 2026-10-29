@@ -1,0 +1,24 @@
+{
+  "dataset": "GSE179847",
+  "processed_matrix_file": "GSE179847_Cell_lifespan_DNAm_processed_matrix.csv.gz",
+  "series_matrix_file": "GSE179847_series_matrix.txt.gz",
+  "matrix_beta_columns": 479,
+  "metadata_titles": 479,
+  "metadata_descriptions": 479,
+  "metadata_geo_accessions": 479,
+  "metadata_matched_to_processed_matrix_columns": 479,
+  "normal_control_profiles_selected": 118,
+  "healthy_donors": [
+    "HC1",
+    "HC2",
+    "HC3",
+    "HC4",
+    "HC5",
+    "HC6"
+  ],
+  "primary_oxygen_condition": "21% O2",
+  "sensitivity_oxygen_condition": "3% O2",
+  "matrix_format_note": "The processed CSV has beta and detection-p columns; the post5 reader retains the 479 beta columns and links them to GEO sample descriptions.",
+  "downloaded_compressed_matrix_size_bytes_reported_in_prior_log": 13415579,
+  "_provenance": "Counts from the user's console output. Raw matrix and series metadata file were not available in this runtime and are not embedded in this handoff archive."
+}

@@ -1,0 +1,13 @@
+accession,role,official_record_url,expected_file_or_resource,status_in_handoff,notes
+GSE165177,MPTR fibroblast expression; operational day-10 identity selection,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165177,GSE165177 expression files,Not embedded,Used in discovery; see manuscript
+GSE165179,MPTR methylation in O1/O2/O3; frozen top-500 and sequential donor analyses,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE165179,GSE165179 methylation files,Not embedded,Core discovery dataset
+GSE269758,dCas9-DNMT3A/3L perturbation response in T cells,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE269758,GSE269758 matrix files,Not embedded,Hypermethylating editor network context
+GSE285251,dCas9-DNMT3A/3L perturbation response in MSCs,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE285251,GSE285251 matrix files,Not embedded,Hypermethylating editor network context
+GSE142439,Independent transient reprogramming direction validation,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE142439,GSE142439_series_matrix.txt.gz,Not embedded,14/16 direction-concordant
+GSE131280,Replicative fibroblast aging time course,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE131280,GSE131280_series_matrix.txt.gz,Not embedded,5/16 reversal-concordant
+GSE22595,Chronological-age fibroblast methylation; HM27 platform,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE22595,GSE22595_series_matrix.txt.gz,Not embedded,0/16 candidates evaluable
+GSE179847,Longitudinal fibroblast lifespan; 479 EPIC profiles,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE179847,GSE179847_Cell_lifespan_DNAm_processed_matrix.csv.gz,Not embedded; user has it in WSL,"Exact processed-matrix URL below; 21% O2 primary, 3% O2 sensitivity"
+GSE52025,Fibroblast methylation for eQTM,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE52025,GSE52025_series_matrix.txt.gz,Not embedded,One testable CpG–gene pair
+GSE53243,Fibroblast expression for eQTM,https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE53243,GSE53243_series_matrix.txt.gz,Not embedded,One testable CpG–gene pair
+ENCSR360BQF,ENCODE skin-scalp fibroblast rE2G annotation,https://www.encodeproject.org/ENCSR360BQF/,ENCODE rE2G file,Not embedded,"Predicted links, not causal assignments"
+ENCSR886NXW,ENCODE skin-back fibroblast rE2G annotation,https://www.encodeproject.org/ENCSR886NXW/,ENCODE rE2G file,Not embedded,"Predicted links, not causal assignments"

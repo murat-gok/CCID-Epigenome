@@ -1,0 +1,7 @@
+{
+  "n_frozen_candidates": 16,
+  "guide_feasible_candidates": 16,
+  "sequence_fetch_failures": 0,
+  "scope": "Basic SpCas9-NGG sequence feasibility only; not comprehensive off-target, chromatin-accessibility or experimental validation.",
+  "_provenance": "From prior user-provided console output."
+}

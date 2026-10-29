@@ -1,0 +1,11 @@
+evidence_layer,n_evaluable,n_supported,statistical_summary,interpretation,status
+Independent transient reprogramming (GSE142439),16,14,exact binomial p=0.002090454; Spearman rho=0.152941,Directionally generalizes collectively; weak magnitude transfer,Reported result
+Replicative aging (GSE131280),16,5,exact binomial p=0.961593628,No enrichment for aging-direction reversal,Reported result
+Chronological aging (GSE22595),0,0,not estimable,None of the 16 frozen CpGs had adequate HM27 coverage,"Unavailable, not negative"
+"Multidonor lifespan full reversal (GSE179847, 21% O2)",16,1,exact binomial p=0.999984741,Only cg04993874 met full primary criteria; result is oxygen-dependent,Post5 result
+"Sign-only opposition (GSE179847, 21% O2)",16,5,descriptive,Sign-level evidence only,Post5 result
+"Sign-only opposition (GSE179847, 3% O2)",16,4,descriptive,Separate environmental sensitivity analysis,Post5 result
+Sign-only opposition in both oxygen conditions,16,3,descriptive,"cg10683641, cg26402417, cg03882250; not full statistical support",Post5 result
+Fibroblast eQTM (GSE52025/GSE53243),1,0,58 matched samples; 0 nominal p<0.05; 0 FDR<0.10,Sparse coverage; no significant pair,Reported result
+Basic guide feasibility,16,16,0 sequence fetch failures,Sequence-compatible guides only; not off-target validation,Reported result
+Integrated tiers,16,12,2 safety sentinels; 2 V3,Prior integration predates post5 aging update,"Historical, rerun required"

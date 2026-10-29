@@ -1,0 +1,10 @@
+{
+  "n_candidates": 16,
+  "tier_counts": {
+    "V2 - directionally replicated candidate": 12,
+    "S - safety sentinel": 2,
+    "V3 - mechanistically supported but direction-incomplete": 2
+  },
+  "status": "HISTORICAL / PRE-POST5. Rerun scripts/04l_integrate_orthogonal_validation.py after post5 natural-aging outputs are used; do not treat these counts as the final post5 integration result.",
+  "scope": "Orthogonal in-silico validation does not demonstrate locus-level causal rejuvenation."
+}

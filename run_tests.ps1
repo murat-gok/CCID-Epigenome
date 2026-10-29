@@ -1,4 +1,4 @@
-$ErrorActionPreference = "Stop"
+﻿$ErrorActionPreference = "Stop"
 Set-Location -Path $PSScriptRoot
 $env:PYTHONPATH = Join-Path $PSScriptRoot "src"
 $vpy = Join-Path $PSScriptRoot ".venv\Scripts\python.exe"

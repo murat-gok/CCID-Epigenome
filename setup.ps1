@@ -1,4 +1,4 @@
-# CCID-Epigenome environment bootstrap (Windows PowerShell)
+﻿# CCID-Epigenome environment bootstrap (Windows PowerShell)
 $ErrorActionPreference = "Stop"
 Set-Location -Path $PSScriptRoot
 
@@ -38,7 +38,7 @@ $code = $LASTEXITCODE
 Write-Host ""
 if ($code -eq 0) {
     Write-Host "Setup complete. Expect '72 passed'." -ForegroundColor Green
-    Write-Host "Next: START_HERE.md section 3 — regenerate the FAZ 0 inputs." -ForegroundColor Green
+    Write-Host "Next: START_HERE.md section 3 - regenerate the FAZ 0 inputs." -ForegroundColor Green
 } else {
     Write-Host "Not all tests passed. Send the output before continuing." -ForegroundColor Red
 }

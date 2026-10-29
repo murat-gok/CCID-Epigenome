@@ -1,4 +1,4 @@
-# FAZ 0 diagnostic gate
+﻿# FAZ 0 diagnostic gate
 $ErrorActionPreference = "Stop"
 Set-Location -Path $PSScriptRoot
 $env:PYTHONPATH = Join-Path $PSScriptRoot "src"

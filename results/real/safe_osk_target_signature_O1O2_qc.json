@@ -1,0 +1,29 @@
+{
+  "n_requested_safe_samples": 2,
+  "n_matched_safe_samples": 2,
+  "n_unmatched_safe_samples": 0,
+  "unmatched_safe_samples": [],
+  "n_matched_donors": 2,
+  "matched_donors": [
+    "O1",
+    "O2"
+  ],
+  "donor_pair_counts": {
+    "O1": 1,
+    "O2": 1
+  },
+  "match_columns": [
+    "donor_id",
+    "day",
+    "batch",
+    "stage"
+  ],
+  "baseline_condition": "baseline",
+  "chunksize": 5000,
+  "n_beta_samples_read": 4,
+  "n_all_loci": 864742,
+  "n_strictly_selected_loci": 0,
+  "min_inferential_donors": 3,
+  "inferential_status": "exploratory_underpowered",
+  "used_underpowered_fallback": true
+}

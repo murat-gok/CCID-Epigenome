@@ -77,3 +77,15 @@ work/
 data/raw/
 data/downloads/
 downloads/
+
+# Processed, derived and reference data
+# Regenerable from the public sources listed in the manuscript (GEO, UCSC, Zhou et al.)
+data/processed/
+data/derived/
+data/reference/
+
+# Large regenerable intermediates; the small result summaries beside them are tracked
+results/faz0/condition_means_all_loci.csv.gz
+results/faz0/control_beta_all_loci.csv.gz
+results/real/safe_osk_target_signature_O1O2_all_loci.csv.gz
+results/real/safe_osk_target_signature_O1O2_donor_effects.csv.gz

@@ -1,0 +1,14 @@
+statistic,value
+n_evaluable,16.0
+concordant,14.0
+spearman_rho,0.15294117647058825
+spearman_p,0.5717446192454617
+p_null_0.5,0.0020904541015625
+genomewide_concordance,0.5330540904039347
+p_null_genomewide,0.004551119009626881
+matched_null_mean,14.813
+matched_null_sd,0.9993652350804029
+p_matched,0.8967103289671033
+n_draws,10000.0
+beta_bin,0.05
+delta_bin,0.05

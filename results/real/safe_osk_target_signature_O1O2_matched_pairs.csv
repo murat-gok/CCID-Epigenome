@@ -1,0 +1,3 @@
+pair_id,safe_sample_id,baseline_sample_ids,n_baseline_samples,donor_id,condition,day,batch,stage
+pair_001,O1_transiently_reprogrammed_10days_exp2,O1_negative_control_10days_exp2,1,O1,reprogrammed,10,exp2,endpoint
+pair_002,O2_transiently_reprogrammed_10days_exp2,O2_negative_control_10days_exp2,1,O2,reprogrammed,10,exp2,endpoint

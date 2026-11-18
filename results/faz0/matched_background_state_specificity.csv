@@ -1,0 +1,15 @@
+statistic,value
+panel_baseline,0.793975046701389
+panel_intermediate,0.17340782453125
+panel_ipsc,0.798403934375
+T_observed,0.6205672221701389
+R_observed,0.9928631620952794
+T_null_mean,0.03935876654718865
+T_null_sd,0.02487892183170324
+T_null_99pct,0.10957458039263888
+T_empirical_p,0.000999000999000999
+R_null_mean,-0.3211297038678848
+n_clusters,16.0
+panel_control_beta,0.766228203125
+bin_width,0.02
+n_draws,1000.0

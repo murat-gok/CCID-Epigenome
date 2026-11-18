@@ -1,0 +1,26 @@
+{
+  "n_all_loci": 864742,
+  "donor_columns": [
+    "O1",
+    "O2"
+  ],
+  "panel_size": 16,
+  "floor_enrichment": 3.7,
+  "panel_at_floor": 14,
+  "all_loci_at_floor_fraction": 0.236316,
+  "sanity_jaccard_vs_stored_signature": 1.0,
+  "min_jaccard_across_variants": 0.0194,
+  "p_14of16_null_0.5": 0.00209045,
+  "p_14of16_null_global": 0.00041634,
+  "genomewide_hypo_fraction": 0.439219,
+  "panel_min_abs_delta": 0.479103,
+  "n_loci_at_or_above_panel_min_abs_delta": 2517,
+  "verdicts": {
+    "A": "RED | the floor dominates the panel: ranking inside it reduces to |delta| with no variance control",
+    "B": "RED | the frozen list is not robust to the variance treatment; the 500 is a choice of statistic, not a finding",
+    "C": "GREEN | no dominant global direction (hypo=0.439)",
+    "D": "SKIPPED",
+    "F": "SKIPPED"
+  },
+  "route": "ROUTE A - artefact-dominated. Rerun discovery with variance moderation and probe masking before touching the manuscript."
+}

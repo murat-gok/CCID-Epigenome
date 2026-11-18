@@ -1,0 +1,30 @@
+{
+  "discovery_donors": [
+    "O1",
+    "O2"
+  ],
+  "allowed_conditions": [
+    "reprogrammed",
+    "reprogrammed_intermediate"
+  ],
+  "identity_floor": -0.5,
+  "pluripotency_ceiling": 0.5,
+  "min_rejuvenation": 0.0,
+  "min_donors_per_day": 2,
+  "utility_tolerance": 0.1,
+  "selected_days": [
+    10.0
+  ],
+  "n_selected_samples": 2,
+  "selected_donors": [
+    "O1",
+    "O2"
+  ],
+  "selected_conditions": [
+    "reprogrammed"
+  ],
+  "selected_samples": [
+    "O1_transiently_reprogrammed_10days_exp2",
+    "O2_transiently_reprogrammed_10days_exp2"
+  ]
+}
